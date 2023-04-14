@@ -1,0 +1,28 @@
+.btn{
+    border-radius: 3rem;
+    background-color: rgb(248, 178, 27);
+}
+.page{
+    background-color:rgb(224, 242, 248);
+}
+#footer{
+    background-color: black;
+}
+.email{
+    width: 10rem;
+}
+.image img{
+    border-radius: 10rem;
+}
+@media screen and (max-width:768px) {
+    .right a{
+        display: none;
+    }
+    #hero .col-md-6 img{
+        display: none;
+    }
+    #carouselExampleCaptions{
+        display: none;
+    }
+
+}
