@@ -15,14 +15,26 @@
     border-radius: 10rem;
 }
 @media screen and (max-width:768px) {
+    .right1 a{
+        display: none;
+    }
     .right a{
         display: none;
     }
+    .btn{
+        margin-bottom: 3rem;
+        margin-left: 3rem;
+    }
+    
     #hero .col-md-6 img{
         display: none;
     }
     #carouselExampleCaptions{
         display: none;
+    }
+    .card{
+        margin-top: 2rem;
+         margin-left: 1rem;
     }
 
 }
